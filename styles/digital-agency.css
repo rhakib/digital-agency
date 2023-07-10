@@ -134,9 +134,7 @@
     display: flex;
     align-items: center;
     gap: 7px;
-    padding-right: 50px;
-    border-right: 2px solid red;
-    
+        
 }
 .btn-service{
     padding: 12px 20px;
@@ -146,11 +144,13 @@
 }
 .btn-service1{
     color: gray;
-    font-size: 18px;
+    font-size: 17px;
 }
 .btn-moredetails{
     color: red;
     font-size: 18px;
+    border-left: 2px solid red;
+    padding-left: 25px;
         
 }
 .services-h1{
@@ -180,12 +180,13 @@
     justify-content: space-around;
     width: 70%;
     margin: auto;
-    padding: 20px;
+    padding: 35px;
     background-color: red;
     border-radius: 10px;
-    margin-top: -50px;
+    margin-top: -80px;
     align-items: center;
 }
+
 
 .phone-call{
     display: flex;
@@ -197,4 +198,56 @@
     width: 170px;
     border: none;
     font-size: 15px;
+}
+.phone-icon{
+    width: 100px;
+}
+.phone-call-info{
+    color: white;
+    border-right: 2px solid gray;
+    padding-right: 25px;
+}
+/* styles for blog section started */
+.blog-section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 40px;
+}
+/* .blog-img-h2{
+    width: 100px;
+} */
+
+.blog-heading{
+    text-align: center;
+    margin: 40px 0px;
+}
+.blog-heading span{
+    color: red;
+}
+.blog-heading h1{
+    font-size: 45px;
+}
+.blog-heading p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.blog-img{
+    border-radius: 10px;    
+    width: 100%;
+    
+}
+.blog-img-h{
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    box-shadow: 4px 8px 4px gray;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blog-img-h p{
+    color: rgb(76, 72, 72);
+    font-size: 18px;
 }
