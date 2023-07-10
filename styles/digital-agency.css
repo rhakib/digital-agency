@@ -181,7 +181,7 @@
     width: 70%;
     margin: auto;
     padding: 35px;
-    background-color: red;
+    background-color: rgb(245, 44, 44);
     border-radius: 10px;
     margin-top: -80px;
     align-items: center;
@@ -213,6 +213,7 @@
     width: 80%;
     margin: auto;
     gap: 40px;
+    justify-content: center;
 }
 /* .blog-img-h2{
     width: 100px;
@@ -251,3 +252,64 @@
     color: rgb(76, 72, 72);
     font-size: 18px;
 }
+
+/* styles for foooter section started here */
+footer{
+    background-image: url(/asset/image/footer-bg.png),linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    color: white;
+    padding-bottom: 65px;
+}
+.footer-section{
+    display: flex;
+    padding: 90px;
+    margin-top: 25px;   
+    justify-content: center; 
+}
+.footer-info1 ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-left: 10px;
+    
+    
+}
+
+.footer-info1 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+.footer-info1 .fa-brands{
+    font-size: 20px;
+    padding: 10px;
+}
+.footer-info{
+    padding: 35px;
+    margin: 15px;
+}
+.footer-info p{
+    margin: 15px;
+}
+.footer-info h3{
+    padding-bottom: 12px ;
+    padding-left: 14px;
+}
+.footer-info .fa-solid{
+    padding-right: 5px;
+}
+.horizontal-row{
+    
+    border-bottom: 1px solid rgb(146, 144, 144);
+    width: 1150px;
+    margin: auto;
+}
+.copyright{
+    text-align: center;
+    margin-top: 18px;
+}
+
+
